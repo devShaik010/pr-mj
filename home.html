@@ -1,15 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Notes lite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">  
+  <script src="https://cdn.tailwindcss.com"></script>
+   <style>
+    /* Custom styles here */
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #FAEBD7;  
+      background-image: url('https://wallpapercave.com/wp/wp2748622.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;/* Replace with your desired yellow color */
+    }
+  </style>
 </head>
 <body>
-    <center>
-      <img src="./images/pdf.gif" alt="" id="pdfLogo">
-      <h3>Hi this application is under Construction.</h3>
-      <a href="https://wa.me/919032953125" class="wps">Click to contact Admin</a>
+
+
+  <div class="center">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-80">
+      <h1 class="text-center text-2xl font-bold mb-4">Notes Lite</h1>
+      <form action="home" method="POST">
+        <div class="mb-4">
+          <center>
+          </center>
+          <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+          <input type="email" id="email" name="email" class="w-full border rounded-md px-4 py-2 focus:outline-none focus:border-blue-500" placeholder="Enter your email">
+        </div>
+        <div class="mb-6">
+          <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+          <input type="password" id="password" name="password" class="w-full border rounded-md px-4 py-2 focus:outline-none focus:border-blue-500" placeholder="Enter your password">
+        </div>
+        <button type="submit" class="w-full bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:bg-black-600">Login</button>
+
+      </form>
+      <div class="mt-4 text-center">
+        <p class="text-sm">Or login with Google</p>
+        <button class="mt-2 bg-white rounded-full p-2">
+          <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/google_logo-google_icongoogle-512.png" alt="Google Logo" class="w-8 h-8 drop-shadow-lg">
+        </button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

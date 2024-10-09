@@ -1,6 +1,3 @@
-Here's the complete README text in one block, continuing from where you left off:
-
-```markdown
 # AWS Cloud Club Website 🌐
 
 This repository contains the source code for the AWS Cloud Club website developed for **AWS Cloud Club at MJCET**. Built with **React JS**, this site aims to inspire and connect cloud technology enthusiasts.

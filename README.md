@@ -38,16 +38,15 @@ This repository contains the source code for the AWS Cloud Club website develope
 
 ## Authors ✍️
 
-- [@Rishab59](https://github.com/Rishab59)
-- [@Jeswin-J](https://github.com/Jeswin-J)
+-  ⚫
+-  ⚫
 
 **LinkedIn:**  
-- [Rishab H](https://www.linkedin.com/in/hrishab59/)  
-- [Jeswin Joseph J](https://www.linkedin.com/in/jeswinjosephj/)
+-  🔵  
+-  🔵 
 
 ## Feedback 💬
 
 We'd love to hear from you! Reach out to us at [awscc_mjcet_chennai@outlook.com](mailto:awscc_mjcet_chennai@outlook.com).
 ```
 
-You can copy this entire block into your README file!
